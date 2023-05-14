@@ -37,9 +37,8 @@ namespace M05_UF3_P3_Frogger
     public static class Utils
     {
         public static Random rnd = new Random();
-        public const int MAP_WIDTH = 20;
-        public static int MAP_HEIGHT = 13;
-
+        public const int MAP_WIDTH = 25;
+        public static int MAP_HEIGHT = 14;
         public const char charCars = '╫';
         public static readonly ConsoleColor[] colorsCars = { ConsoleColor.Cyan, ConsoleColor.Magenta, ConsoleColor.Red, ConsoleColor.Red };
         public const char charLogs = '=';

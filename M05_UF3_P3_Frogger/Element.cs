@@ -73,7 +73,7 @@ namespace M05_UF3_P3_Frogger
         public const char characterLeft = '╢';
         public const char characterRight = '╟';
 
-        public Player() : base(Vector2Int.zero, new Vector2Int(Utils.MAP_WIDTH / 2, Utils.MAP_HEIGHT - 1), characterForward, ConsoleColor.Green)
+        public Player() : base(Vector2Int.zero, new Vector2Int(Utils.MAP_WIDTH / 2, Utils.MAP_HEIGHT - 1 ), characterForward, ConsoleColor.White)
         {
         }
 
